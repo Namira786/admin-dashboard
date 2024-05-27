@@ -2,34 +2,52 @@ import { Column } from "react-table";
 import TableHOC from "./TableHOC";
 
 interface DataType {
-  _id: string;
-  quantity: number;
-  discount: number;
-  amount: number;
-  status: string;
+  rank:number;
+  name: string;
+  calmar: number;
+  overall:number;
+  avg: number;
+  win:number;
+  price:number;
+  action:string;
+  
+
 }
 
 const columns: Column<DataType>[] = [
   {
-    Header: "Id",
-    accessor: "_id",
+    Header: "Rank",
+    accessor: "rank",
   },
   {
-    Header: "Quantity",
-    accessor: "quantity",
+    Header: "Name",
+    accessor: "name",
   },
   {
-    Header: "Discount",
-    accessor: "discount",
+    Header: "Calmar Ratio",
+    accessor: "calmar",
   },
   {
-    Header: "Amount",
-    accessor: "amount",
+    Header: "Overall profit",
+    accessor: "overall",
   },
   {
-    Header: "Status",
-    accessor: "status",
+    Header: "Avg. Daily Profit",
+    accessor: "avg",
   },
+  {
+    Header: "Win %(Day)",
+    accessor: "win",
+  },
+  {
+    Header: "Price",
+    accessor: "price",
+  },
+  {
+    Header: "Action",
+    accessor: "action",
+  },
+  
 ];
 
 const DashboardTable = ({ data = [] }: { data: DataType[] }) => {
@@ -37,7 +55,7 @@ const DashboardTable = ({ data = [] }: { data: DataType[] }) => {
     columns,
     data,
     "transaction-box",
-    "Top Transaction"
+    "Basic Backtest"
   )();
 };
 

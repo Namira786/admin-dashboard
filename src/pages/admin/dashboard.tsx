@@ -25,39 +25,45 @@ const Dashboard = () => {
           <WidgetItem
             percent={40}
             amount={true}
-            value={340000}
-            heading="Revenue"
+            value={3.96}
+            heading="Calmar Ratio"
             color="rgb(0, 115, 255)"
           />
           <WidgetItem
             percent={-14}
-            value={400}
+            value={381845}
             color="rgb(0 198 202)"
-            heading="Users"
+            heading="Overall Profit"
           />
           <WidgetItem
             percent={80}
-            value={23000}
+            value={319.54}
             color="rgb(255 196 0)"
-            heading="Transactions"
+            heading="Avg. daily profit"
           />
 
           <WidgetItem
             percent={30}
             value={1000}
             color="rgb(76 0 255)"
-            heading="Products"
+            heading="Price"
+          />
+          <WidgetItem
+            percent={30}
+            value={0.65}
+            color="rgb(76 0 255)"
+            heading="Win %(Day)"
           />
         </section>
 
         <section className="graph-container">
           <div className="revenue-chart">
-            <h2>Revenue & Transaction</h2>
+            <h2>Overall Profit vs Avg. daily profit</h2>
             <BarChart
-              data_2={[300, 144, 433, 655, 237, 755, 190]}
-              data_1={[200, 444, 343, 556, 778, 455, 990]}
-              title_1="Revenue"
-              title_2="Transaction"
+              data_2={[319.54, 216.31, 208.51, 303.47, 185.77, 218.49, 161.9,137.51,198.66]}
+              data_1={[381845, 268872.5, 255425, 370845, 370845, 135980, 267867.5,178252.5,176420,244555]}
+              title_1="Overall profit"
+              title_2="Avg. Daily Profit"
               bgColor_1="rgb(0, 115, 255)"
               bgColor_2="rgba(53, 162, 235, 0.8)"
             />

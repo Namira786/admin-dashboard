@@ -59,7 +59,7 @@ const AdminSidebar = () => {
             : {}
         }
       >
-        <h2>Logo.</h2>
+        <h1><center>LEADER BOARDS</center></h1>
         <DivOne location={location} />
         <DivTwo location={location} />
         <DivThree location={location} />
@@ -80,28 +80,58 @@ const DivOne = ({ location }: { location: Location }) => (
     <ul>
       <Li
         url="/admin/dashboard"
-        text="Dashboard"
+        text="LeaderBoard"
         Icon={RiDashboardFill}
         location={location}
       />
       <Li
         url="/admin/product"
-        text="Product"
+        text="Historical Trading"
         Icon={RiShoppingBag3Fill}
         location={location}
       />
       <Li
         url="/admin/customer"
-        text="Customer"
+        text="Historical Chart"
         Icon={IoIosPeople}
         location={location}
       />
       <Li
         url="/admin/transaction"
-        text="Transaction"
+        text="Scanner"
         Icon={AiFillFileText}
         location={location}
       />
+       <Li
+        url="/admin/transaction"
+        text="Scanner"
+        Icon={AiFillFileText}
+        location={location}/>
+         <Li
+        url="/admin/transaction"
+        text="Alerts"
+        Icon={AiFillFileText}
+        location={location}/>
+         <Li
+        url="/admin/transaction"
+        text="Basic Backtest"
+        Icon={AiFillFileText}
+        location={location}/>
+          <Li
+        url="/admin/transaction"
+        text="Advanced Backtest"
+        Icon={AiFillFileText}
+        location={location}/>
+          <Li
+        url="/admin/transaction"
+        text="Pricing"
+        Icon={AiFillFileText}
+        location={location}/>
+        <Li
+        url="/admin/transaction"
+        text="My earnings"
+        Icon={AiFillFileText}
+        location={location}/>
     </ul>
   </div>
 );

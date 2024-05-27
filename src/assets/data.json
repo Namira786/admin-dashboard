@@ -2,51 +2,121 @@
   "categories": [
     {
       "value": 40,
-      "heading": "Laptops"
+      "heading": "price"
     },
 
     {
-      "value": 100,
-      "heading": "Shoes"
+      "value": 80,
+      "heading": "overall profit"
     },
     {
       "value": 80,
-      "heading": "Cameras"
+      "heading": "avg daily profit"
     },
     {
       "value": 60,
-      "heading": "Jeans"
+      "heading": "calmar ratio"
     }
   ],
 
   "transaction": [
-    {
-      "_id": "ksdnfkjsdfx",
-      "amount": 4000,
-      "quantity": 4,
-      "discount": 300,
-      "status": "Processing"
+    { "rank":1,
+    "name":"Selling with re entr",
+    "calmar": 3.96,
+    "overall":381845,
+    "avg": 319.54,
+    "win":0.65,
+    "price":"-",
+    "action":"view"
+
+    },
+    { "rank":2,
+    "name":"Strategy_name",
+    "calmar": 3.62,
+    "overall":268872.5,
+    "avg": 216.31,
+    "win":0.64,
+    "price":500,
+    "action":"Buy"
     },
     {
-      "_id": "sdsdssdsd",
-      "amount": 5100,
-      "quantity": 2,
-      "discount": 900,
-      "status": "Processing"
+      "rank":3,
+    "name":"Based On Premium ",
+    "calmar": 3.42,
+    "overall":255425,
+    "avg": 208.51,
+    "win":0.64,
+    "price":"-",
+    "action":"view"
+    },
+    { "rank":4,
+    "name":"Strategy_name",
+    "calmar": 3.22,
+    "overall":370845,
+    "avg": 303.47,
+    "win":0.65,
+    "price":"-",
+    "action":"view"
     },
     {
-      "_id": "sdsdcvsssdsd",
-      "amount": 13000,
-      "quantity": 91,
-      "discount": 0,
-      "status": "Shipped"
+      "rank":5,
+      "name":"Strategy_name",
+      "calmar": 3.22,
+      "overall":370845,
+      "avg": 303.47,
+      "win":0.65,
+      "price":"-",
+      "action":"view"
     },
     {
-      "_id": "dfddddfd",
-      "amount": 2300,
-      "quantity": 4,
-      "discount": 2000,
-      "status": "Processing"
+      "rank":6,
+      "name":"Based On Premium wit",
+      "calmar": 3.01,
+      "overall":1359805,
+      "avg": 185.77,
+      "win":0.49,
+      "price":"-",
+      "action":"view"
+    },
+    {
+      "rank":7,
+      "name":"Selling with re entr",
+      "calmar": 3.96,
+      "overall":381845,
+      "avg": 319.54,
+      "win":0.65,
+      "price":"-",
+      "action":"view"
+    },
+    {
+      "rank":8,
+      "name":"Selling with re entr",
+      "calmar": 3.96,
+      "overall":381845,
+      "avg": 319.54,
+      "win":0.65,
+      "price":"-",
+      "action":"view"
+    },
+    {
+      "rank":9,
+      "name":"Selling with re entr",
+      "calmar": 3.96,
+      "overall":381845,
+      "avg": 319.54,
+      "win":0.65,
+      "price":"-",
+      "action":"view"
+    },
+    {
+      "rank":10,
+      "name":"Selling with re entr",
+      "calmar": 3.96,
+      "overall":381845,
+      "avg": 319.54,
+      "win":0.65,
+      "price":"-",
+      "action":"view"
     }
   ]
 }
